@@ -11,7 +11,7 @@ $scriptTestUsers.ForEach(
 {
    try
    { 
-        New-ADUser –Name $_ –SamAccountName $_ –path “OU=IT, DC=cyber, DC=com” -Server Server1
+        New-ADUser –Name $_ –SamAccountName $_ –path “OU=IT, DC=cyber, DC=com”
    }
    catch [Microsoft.ActiveDirectory.Management.ADIdentityAlreadyExistsException]
    {
