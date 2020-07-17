@@ -4,7 +4,7 @@ Assumes machine is in cyber.com domain
 #>
 
 Set-ExecutionPolicy bypass
-$ErrorActionPreference='Stop'
+
 # Create test users
 $scriptTestUsers = 'Betty','Archie','Veronica'
 $scriptTestUsers.ForEach(
@@ -21,7 +21,6 @@ $scriptTestUsers.ForEach(
    {
     echo "woopsie"
    }
-   
 })
 
 
