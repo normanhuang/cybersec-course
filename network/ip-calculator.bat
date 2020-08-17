@@ -70,3 +70,5 @@ set /A "useable_octet=%network_ip[3]%+1"
 echo Useable Range:[%network_ip[0]%.%network_ip[1]%.%network_ip[2]%.%useable_octet%, %range_ip[0]%.%range_ip[1]%.%range_ip[2]%.%range_ip[3]%]
 
 echo Broadcast IP: %range_ip[0]%.%range_ip[1]%.%range_ip[2]%.%broadcast_octet%
+
+pause
