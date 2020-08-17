@@ -1,8 +1,9 @@
+@echo off
 rem Given a IP address and its subnet mask in CIDR notation,
 rem Output subnet mask IP, network IP, useable range, and broadcast IP.
 rem Authored by Norman Huang
 
-@echo off
+
 Setlocal EnableDelayedExpansion
 
 set /A "subnet_mask_octets[0]=0"
