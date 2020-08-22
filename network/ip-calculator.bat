@@ -32,6 +32,8 @@ set /A "subnet_borrowed_bits=%prefix%%%8"
 set /A octet_index=0
 
 
+if %subnet_full_octets% EQU 0 goto subnet_borrowed
+
 rem fill in the full subnet octets
 :subnet_fill
     set /A "subnet_mask_octets[%octet_index%]=255"
