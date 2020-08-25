@@ -1,5 +1,6 @@
 # Network Security
-## A collection of scripts and other artifacts to help with understanding network security
+Fundamentals of networks, protocols and network devices (Cisco routers and switches more specifically).
+A collection of notes, learnings, scripts, and other artifacts to help with understanding network security
 
 ### ip-calculator.bat
 This is a simple IP calculator written in Batch. Given a IP with its subnet mask in CIDR format (x.x.x.x/y), it will output the subnet mask IP, the network ID, the useable IP range of that network, and its corresponding broadcast IP.
